@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    height:100vh;
+    overflow: hidden;
+}
+label{
+    padding-left: 20px;
+    text-align: left;
+}
+#textbox{
+    height: 35px;
+    width:250px;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+#otptext{
+    margin-left: 5%;
+    height: 25px;
+}
+#gen{
+    margin-left: 145px;
+    background-color:#614BC3;
+    height: 40px;
+    color: white;
+    border:none;
+    border-radius: 10px;
+}
+#sub{
+    margin-left: 20px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background-color:forestgreen;
+    color: azure;
+
+}
+.otp{
+    padding-left: 37%;
+}
+
+.center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:400px;
+    background: white;
+    border-radius: 10px;
+    border:solid gray 1px;
+}
+
+.input{
+    width:100%;
+    padding:0 5px;
+    height: 40px;
+    font-size: 16px;
+    border:none;
+}
+.otp{
+    margin-left: 4px;
+}
